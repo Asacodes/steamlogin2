@@ -41,7 +41,7 @@ app.use(bodyParser.json())
 app.get('/', (req, res) => {
   res.send('Hello World!')
 
-  docRef.doc(`another Test`).set({
+  docRef.doc(`anotherTest`).set({
     test: "test"
   })
   .then(() => {
